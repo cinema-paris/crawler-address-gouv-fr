@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require 'crawler/address/providers/gouv_fr'
+
+require 'irb'
+IRB.start(__FILE__)
